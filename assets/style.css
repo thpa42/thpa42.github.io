@@ -1,0 +1,393 @@
+
+a {
+color: inherit;
+text-decoration: none;
+}
+
+#profile {
+    
+    position: fixed;
+    z-index: 20;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#linkedin {
+    position: fixed;
+    right: 5%;
+    bottom: 2%;
+    width: 85px;
+    height: 38px;
+    border-radius: 4px;
+}
+
+.clear {
+clear: both;
+}
+
+.img-scaled {
+width: 100%;
+}
+
+.img-scaled-wh {
+width: 100%;
+height: 100%;
+}
+
+
+body {	/*the outer layer of the site and global style attributes*/
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin: 0px;
+background: #edeae5;
+}
+
+#background {
+    background: url('background.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#subheading {
+    font-size: 24px;
+}
+#heading {
+    font-size: 48px;
+}
+.link1 {
+    background: #5485BB;
+    padding: 18px 34px;
+    cursor: pointer;
+    border-radius: 2px;
+    position: fixed;
+    color: white;
+    font-size: 22;
+    border-radius: 8px;
+}
+.link2 {
+    background: #5485BB;
+    padding: 18px 34px;
+    cursor: pointer;
+    border-radius: 2px;
+    position: fixed;
+    color: white;
+    font-size: 22;
+    border-radius: 8px;
+}
+.link3 {
+    background: #5485BB;
+    padding: 18px 34px;
+    cursor: pointer;
+    border-radius: 2px;
+    position: fixed;
+    color: white;
+    font-size: 22;
+    border-radius: 8px;
+}
+.link4 {
+    background: #5485BB;
+    padding: 18px 34px;
+    cursor: pointer;
+    border-radius: 2px;
+    position: fixed;
+    color: white;
+    font-size: 22;
+    border-radius: 8px;
+}
+
+#exp {
+    left: 52%;
+    top: 73%;
+}
+
+#projects {
+    left: 43%;
+    top: 73%;
+    transform: translateX(-50%);
+}
+
+#edu {
+    top: 73%;
+    left: 22.4%;
+}
+
+
+
+#skills {
+    top: 73%;
+    left: 68.2%;
+}
+
+
+#container {
+    position: absolute;
+    width: 100%;
+    height: 518px;
+    top: 50%;
+    margin-top: -269px;
+}
+#content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#carousel-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    -webkit-transition: linear 0.2s;
+}
+#carousel-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    right: 0px;
+    margin-top: -30px;
+    cursor: pointer;
+    -webkit-transition: linear 0.2s;
+}
+#carousel-prev:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#carousel-next:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+
+#modal-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    display: none;
+}
+#modal-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#modal-box {
+    width: 80%;
+    height: 90%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    bottom: 5%;
+    background-color: white;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 32px;
+}
+#modal-container2 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    display: none;
+}
+#modal-overlay2 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#modal-box2 {
+    width: 80%;
+    height: 90%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    bottom: 5%;
+    background-color: white;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 32px;
+}
+#modal-container3 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    display: none;
+    overflow: scroll;
+}
+#modal-overlay3 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#modal-box3 {
+    width: 80%;
+    height: 90%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    bottom: 5%;
+    background-color: white;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 32px;
+}
+#modal-container4 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    display: none;
+}
+#modal-overlay4 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#modal-box4 {
+    width: 80%;
+    height: 90%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    bottom: 5%;
+    background-color: white;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 32px;
+}
+
+
+#coursework {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#highschool {
+    margin-top: 36px;
+}
+
+#box {
+    width: 100%;
+    height: 430px;
+}
+#box2 {
+    width: 100%;
+    height: 140px;
+}
+#b22 {
+    width: 440px;
+}
+
+.projs {
+    float: left;
+    
+    position: relative;
+
+    margin-left: 84px;
+}
+#led{
+    margin-top: 48px;
+    margin-left: 84px;
+    width: 440px;
+    height: 300px;
+}
+
+#UCB {
+    position: absolute;
+    top: 10%;
+    right: 18.4%;
+}
+#UCB2 {
+    position: absolute;
+    top: 11%;
+    left: 67%;
+}
+#tx {
+    position: absolute;
+    top: 37%;
+    left: 67%;
+}
+#Nova {
+    position: absolute;
+    top: 67%;
+    left: 68%;
+}
+#ISI {
+    position: absolute;
+    bottom: 36%;
+    right: 20%;
+}
+#diploma {
+    position: absolute;
+    bottom: 6%;
+    right: 3.5%;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+#name {
+    color:#031926;
+    left: 50%;
+    top: 2%;
+    z-index: 15;
+    position: fixed;
+    transform: translateX(-50%);
+}
+#contact {
+    color:#031926;
+    left: 50%;
+    top: 10%;
+    z-index: 15;
+    position: fixed;
+    transform: translateX(-50%);
+}
+
+.Cancel:hover {
+    cursor: pointer;
+}
+.Cancel {
+
+    padding: 10px;
+    background: #5485BB;
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    width: 64px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+#skills.jpg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin-left: 24px;
+}
+#sk {
+    position: absolute;
+}
+
